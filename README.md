@@ -33,6 +33,7 @@ mitmproxy
 apscheduler
 django-apscheduler
 django==2.2.10
+django-mysql==3.10.0
 django-simpleui
 PyMySQL
 secrets
@@ -68,7 +69,7 @@ python sqlmapapi.py -s
 
 ## 使用
 
-配置setting的数据库信息
+配置mitescan/settings.py的数据库信息，先创建miteproxy数据库，如果为其它库名需要修改配置
 
 ```sh
 python manage.py makemigrations
