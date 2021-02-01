@@ -2,6 +2,7 @@ mitmproxy
 apscheduler
 django-apscheduler
 django==2.2.10
+django-mysql==3.10.0
 django-simpleui
 PyMySQL
 secrets
